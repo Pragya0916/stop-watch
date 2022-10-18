@@ -15,15 +15,8 @@ const App = () => {
     if(timer>0 && timer<5){ 
         setTimeout( ()=> {
           setTimer(timer+1)
-        },1000) 
-     }
-     else if(timer<6 && timer>1){
-      setTimeout( ()=> {
-        setTimer(timer-1)
-      },1000) 
-     }
-     
-    } , [timer] )
+        },1000)
+    }} , [timer] )
 
     
     
